@@ -54,6 +54,8 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('MyShop'),
+        foregroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         actions: <Widget>[
           Consumer<Cart>(
             builder: (_, cart, ch) => baDge(

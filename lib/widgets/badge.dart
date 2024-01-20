@@ -28,7 +28,7 @@ class baDge extends StatelessWidget {
               borderRadius: BorderRadius.circular(10.0),
               color: color != null
                   ? color
-                  : Theme.of(context).secondaryHeaderColor,
+                  : Theme.of(context).colorScheme.secondary,
             ),
             constraints: BoxConstraints(
               minWidth: 16,

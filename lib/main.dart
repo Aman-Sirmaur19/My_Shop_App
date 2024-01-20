@@ -32,8 +32,12 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'MyShop',
         theme: ThemeData(
-          primarySwatch: Colors.purple,
-          secondaryHeaderColor: Colors.deepOrange,
+          // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSwatch(
+            primarySwatch: Colors.purple,
+            accentColor: Colors.deepOrange,
+            backgroundColor: Color.fromRGBO(255, 254, 229, 1),
+          ),
           fontFamily: 'Lato',
         ),
         // theme: ThemeData().copyWith(primaryColor: Colors.purple, secondaryHeaderColor: Colors.deepOrange),
